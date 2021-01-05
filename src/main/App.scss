@@ -1,0 +1,40 @@
+$mainBlue: #008891;
+$mainBg: #e7e7de;
+
+html,body {
+    background-color: $mainBg;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+p {
+    font-family: 'Merriweather', serif;
+
+}
+
+.questionCard {
+    font-family: 'Merriweather', serif;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nextButton {
+    background-color: $mainBlue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.nextButton:disabled {
+opacity: 0.6;
+}
